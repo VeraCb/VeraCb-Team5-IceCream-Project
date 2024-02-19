@@ -679,7 +679,7 @@ font-family: "Titan One", sans-serif;
                 align-items: center;
                 flex-direction: column;
                 gap:20px;
-                overflow: hidden;
+                overflow-x: hidden;
                 position: fixed;
                 top: 0;
                 /* right: -254px; */
@@ -742,6 +742,10 @@ font-family: "Titan One", sans-serif;
     }
     .hero-section{
         height:502px;
+        overflow-x: hidden;
+    }
+    .products-section{
+        overflow-x: hidden;
     }
     .hero-content-section{
         padding-top:80px;
@@ -798,14 +802,15 @@ font-family: "Titan One", sans-serif;
         
     }
                 .modal-content {
-                    width: 100%;
+                    /* width: 100%; */
+                    width: 66%;
                     height: 100%;
                     display: flex;
                     padding-top: 58px;
                     align-items: center;
                     flex-direction: column;
                     gap: 20px;
-                    overflow: hidden;
+                    overflow-x: hidden;
                     position: fixed;
                     top: 0;
                     /* right: -254px; */
@@ -816,7 +821,8 @@ font-family: "Titan One", sans-serif;
                 }
         
                 .modal {
-                    width: 100%;
+                    /* width: 100%; */
+                    width: 66%;
                     height: 100%;
                     background-color: rgba(46, 47, 66, 0.4);
                     position: fixed;

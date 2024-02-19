@@ -107,6 +107,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   .about-group {
     background-image: url(../images/sectionbg1@2x.png);
         flex-wrap: nowrap;
+        padding-bottom: 10px;
   }
 }
 .about-image {
@@ -142,7 +143,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
     justify-content: center;
     padding: 24px 72px 24px 24px;
 }
-.modal {
+.ad-modal {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -328,9 +329,9 @@ box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
         margin-left: 20px;
         margin-right: 34px;
     } 
-    .modal {
+    /* .modal {
         width: 250px;
-    }
+    } */
     .modal-paragraph {
         font-size: 12px;
      }
@@ -464,7 +465,12 @@ gap: 115px;
     .advantages-item{
         padding-right: 20px;
     }
-    
+    .about-section{
+        overflow: hidden;
+    }
+    .advantages-section{
+        overflow: hidden;
+    }
 }
 
 
