@@ -23,6 +23,8 @@
     />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
     <!-- Luca's sections -->
@@ -270,7 +272,111 @@
         </form>
     </div>
 </div>
+<!-- Adriana's section -->
+<section class="about-section">
+        
+            <p class="about-title-small zoomIn">tradition and love</p>
+            <h2 class="about-title-big zoomIn">how it's made?</h2>
+            <div class="about-group">
+            <img 
+            srcset="./images/milk-and-cow.png 1x, ./images/milk-and-cow@2x.png 2x"
+            src="./images/milk-and-cow.png" alt="Milk and Cow" class="about-image rotateIn">
+            <div class="about-items">
+            <p class="about-first-paragraph zoomIn">Ice is a place where you will become not only a little happier, but also healthier. Health is the main value for us, and we follow it when creating our handmade desserts.</p>
+            <p class="about-second-paragraph zoomIn">We use traditional recipes and 100% natural ingredients. Our products are so natural that they can be given to children from the age of three years. Sweets lovers can expect 55 types of ice cream, 15 types of coffee and 23 milkshakes.</p>
+            <button type="button" class="about-button" ad-data-modal-open>Read more ></button>
+            </div>
+        </div>
+        </section>
+    <!--Advantages Section-->
+    <section class="advantages-section">
+        <div class="advantages-div">
+            <h2 class="visually-hidden">Advantages</h2>
+        <ul class="list advantages-parent rotateIn">
+            <li class="advantages-item rotateIn">
+            <div class="advantages-images">
+                <img 
+                
+                src="./images/milk-bucket.png" alt="Udder and Bucket" width="50" height="50" class="advantages-svg">
+            </div>
+                <h3 class="advantages-numbers">721</h3>
+                <p class="advantage-paragraph">At 721 Cow, we're passionate about producing the highest quality ice cream possible.</p>
+            </li>
+        </ul>
+        <ul class="list advantages-parent">
+            <li class="advantages-item rotateIn">
+            <div class="advantages-images">
+                <img src="./images/apples-bucket.png" alt="Apples in the bucket" width="50" height="50" class="advantages-svg">
+            </div>
+                <h3 class="advantages-numbers">16kg</h3>
+                <p class="advantage-paragraph">You can be sure you're getting a scoop of the freshest ice cream around.</p>
+            </li>
+        </ul>
+        <ul class="list advantages-parent">
+            <li class="advantages-item rotateIn">
+            <div class="advantages-images">
+                <img src="./images/heart-icecream.png" alt="Heart Shapped Icecream" width="44" height="50" class="advantages-svg">
+            </div>
+                <h3 class="advantages-numbers">84</h3>
+                <p class="advantage-paragraph">We use only the freshest, locally-sourced ingredients to make our 84 unique and delicious flavors.</p>
+            </li>
+        </ul>
+        </div>
+    </section>
+        <!--Modal Window-->
+    <div ad-data-modal class="open-button is-hidden">
+        <div class="modal">
+            <div class="modal-div"> 
+            <button type="button" ad-data-modal-close class="close-button">x
+               <!--<svg width="8"  height="8" class="circle-image">
+                    <use href="./images/icons.svg#icon-close-b">
+                     </use>
+                </svg>--> 
+            </button>
+        </div>
+        <div class="modal-content-ab">
+            <p class="modal-paragraph">Our Handmade Icecream</p>
+           
+            <form>
+                <div class="modal-products">
+                    <ul class="list products-list">
+                        <li class="products-label">
+                            <img src="./images/burbon-icecream.png" alt="Burbon Icecream" class="image-icecream" >
+                            <label for="products" class="label-xx">
+                                <p class="description-paragraph">Start with a classic crème anglaise base for homemade churned ice cream, paired with brown sugar to complement the bourbon flavoring.</p>
+                                <input type="text" name="products" id="products" placeholder="I love it" class="how-many">
+                            </label>
+                        </li>
+                        <li class="products-label">
+                            <img src="./images/butter-pecan -icecream.png" alt="Butter Pecan Icecream"class="image-icecream" >
+                            <label for="products" class="label-xx">
+                                <p class="description-paragraph">The combination of heavy cream, light brown sugar, butter, and toasted pecans create an ultra-decadent dessert.</p>
+                                <input type="text" name="products" id="products" placeholder="I love it" class="how-many">
+                            </label>
+                        </li>
 
+                        <li class="products-label">
+                            <img src="./images/pinapple-icecream.png" alt="Pinapple Icecream"class="image-icecream">
+                            <label for="products" class="label-xx">
+                                <p class="description-paragraph">Fresh seasonal fruit helps bring this tropical treat to life. Enjoy it on its own or served on top of a buttery pound cake for a light, bright, fruity dessert</p>
+                                <input type="text" name="products" id="products" placeholder="I love it" class="how-many">
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <!--I don`t use it-->
+                 <div class="container-flex"> 
+                <div class="omment">
+                    <label class="name" for="user-comment">
+                    <textarea name="user-comment" id="user-comment" placeholder="Text input" class="input-user-name">Choose your favourite Icecream or leave sugestions</textarea>
+                </label>
+                </div>
+                <button type="button" class="send-button">I want that!</button>
+            </div>
+            </form> 
+</div>
+        </div>   
+    </div>
 <!-- Sara's sections -->
  <div class="gallery-div container">
       <div class="images container-img">
@@ -492,7 +598,274 @@
         <div class="pagination"></div>
       </div>
     </div>
+ <section class="business-locations">
+      <h2 class="visually-hidden">NU ESTE UN TITLU!</h2>
+      <ul class="locations-cards list">
+        <li class="cards-items cards-items-tablet">
+          <div class="cards-container">
+            <p class="locations-main-title">CAFE</p>
+            <div class="city-content">
+              <p class="city-title">Chicago</p>
+              <p class="city-description">
+                Handcrafted coffee, baked goods, and premium ice cream.
+              </p>
+            </div>
+            <div class="schedule-container">
+              <div class="schedule-content-f-m">
+                <p class="schedule-days">Monday - Friday</p>
+                <span class="schedule-hours">06:00 AM - 10:00 PM</span>
+              </div>
+              <div class="schedule-content-s-s">
+                <p class="schedule-days">Saturday - Sunday</p>
+                <span class="schedule-hours">08:00 AM - 16:00 PM</span>
+              </div>
+            </div>
+            <div class="contacts-content">
+              <a class="contact link" href="+61(0) 383 766 284"
+                >+61(0) 383 766 284</a
+              >
+              <a class="contact link" href="noreply@envato.com"
+                >noreply@envato.com</a
+              >
+            </div>
+          </div>
+        </li>
+        <li class="cards-items">
+          <div class="cards-container">
+            <p class="locations-main-title locations-secondary-title">
+              FOOD TRUCK
+            </p>
+            <div class="city-content">
+              <p class="city-title">Los Angeles</p>
+              <p class="city-description">
+                Fusion cuisine and refreshing ice cream made with passion.
+              </p>
+            </div>
+            <div class="schedule-container">
+              <div class="schedule-content-f-m">
+                <p class="schedule-days">Monday - Friday</p>
+                <span class="schedule-hours">06:00 AM - 10:00 PM</span>
+              </div>
+              <div class="schedule-content-s-s">
+                <p class="schedule-days">Saturday - Sunday</p>
+                <span class="schedule-hours">08:00 AM - 16:00 PM</span>
+              </div>
+            </div>
+            <div class="contacts-content">
+              <a class="contact link" href="+61(0) 383 766 284"
+                >+61(0) 383 766 284</a
+              >
+              <a class="contact link" href="noreply@envato.com"
+                >noreply@envato.com</a
+              >
+            </div>
+          </div>
+        </li>
+        <li class="cards-items">
+          <div class="cards-container">
+            <p class="locations-main-title">CAFE</p>
+            <div class="city-content">
+              <p class="city-title">New York</p>
+              <p class="city-description">
+                Specialty teas, artisanal pastries, mouth-watering ice cream.
+              </p>
+            </div>
+            <div class="schedule-container">
+              <div class="schedule-content-f-m">
+                <p class="schedule-days">Monday - Friday</p>
+                <span class="schedule-hours">06:00 AM - 10:00 PM</span>
+              </div>
+              <div class="schedule-content-s-s">
+                <p class="schedule-days">Saturday - Sunday</p>
+                <span class="schedule-hours">08:00 AM - 16:00 PM</span>
+              </div>
+            </div>
+            <div class="contacts-content">
+              <a class="contact link" href="+61(0) 383 766 284"
+                >+61(0) 383 766 284</a
+              >
+              <a class="contact link" href="noreply@envato.com"
+                >noreply@envato.com</a
+              >
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="button-container">
+        <div class="location-button-content">
+          <button map-data-modal-open type="button" class="our-location-button">
+            Our Locations<svg
+              width="0.5rem"
+              height="0.5rem"
+              class="button-icon"
+            >
+              <use href="./images/icon.svg#icon-Vector-1"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="location-button-content">
+          <button fr-data-modal-open type="button" class="franchise-button">
+            Franchise<svg width="0.5rem" height="0.5rem" class="button-icon">
+              <use href="./images/icon.svg#icon-Vector-2"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
 
+    <!-- Modal Button Location -->
+    <div map-data-modal class="modal-js is-hidden">
+      <div class="modal-wind-location">
+        <button map-data-modal-close type="button" class="modal-btn">
+          <svg width="16" height="16" class="md-sv">
+            <use href="./images/icon.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+
+        <div>
+          <p class="modal-paragraf">We will be glad to see you</p>
+          <iframe
+            class="iframe-location"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.866344301846!2d30.52921278850294!3d50.4249617983273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d96f5139689b%3A0xa1f7c65300bebad1!2zR29JVDog0JrRg9GA0YHRiyDQv9GA0L7Qs9GA0LDQvNC80LjRgNC-0LLQsNC90LjRjyDQsiDQmtC40LXQstC1IHwgSVQg0JrRg9GA0YHRiw!5e0!3m2!1sen!2sro!4v1707984752312!5m2!1sen!2sro"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+
+          <p class="modal-paragraf-location">
+            Yevhen Konovalets Street, 36, Kyiv, 02000
+          </p>
+          <button type="submit" class="modal-button">
+            Open in Google Maps
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Button Franchise -->
+    <div fr-data-modal class="modal-js is-hidden">
+      <div class="modal-wind">
+        <button fr-data-modal-close type="button" class="modal-btn">
+          <svg width="16" height="16" class="md-sv">
+            <use href="./images/icon.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+
+        <form class="form-modal-form">
+          <p class="modal-paragraf">
+            Leave your details and maybe we will call you back
+          </p>
+          <div class="modal-container-first">
+            <label for="user-name" class="modal-form-label">Name</label>
+            <div class="modal-container-second">
+              <input
+                id="user-name"
+                name="user-name"
+                type="text"
+                class="modal-form-input"
+              />
+              <svg width="18" height="24" class="modal-icon">
+                <use href="./images/icons.svg#icon-VectorName" />
+              </svg>
+            </div>
+          </div>
+          <div class="modal-container-first">
+            <label for="user-name" class="modal-form-label">Number</label>
+            <div class="modal-container-second">
+              <input
+                id="user-phone"
+                name="user-name"
+                type="text"
+                class="modal-form-input"
+              />
+              <svg width="18" height="24" class="modal-icon">
+                <use href="./images/icons.svg#icon-VectorPhone" />
+              </svg>
+            </div>
+          </div>
+          <div class="modal-container-first">
+            <label for="user-name" class="modal-form-label">Email</label>
+            <div class="modal-container-second">
+              <input
+                id="user-mail"
+                name="user-name"
+                type="text"
+                class="modal-form-input"
+              />
+              <svg width="18" height="24" class="modal-icon">
+                <use href="./images/icons.svg#icon-VectorEmail" />
+              </svg>
+            </div>
+          </div>
+          <div class="modal-container-third">
+            <label for="user-comment" class="modal-form-label"
+              >a few words, my darling</label
+            >
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              placeholder="Write Here.."
+              class="modal-textarea"
+            ></textarea>
+          </div>
+          <button type="submit" class="modal-button">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-first-group">
+          <div class="group-first-content">
+            homemade ice cream
+            <span class="group-first-content-side">made</span>
+          </div>
+          <div class="group-second-content">with passion</div>
+        </div>
+        <div class="footer-second-group">
+          <div class="footer-social-media">
+            <ul class="social-media-container list">
+              <li class="social-media-content">
+                <a href="" class="footer-social-media-link">
+                  <svg width="20" height="20" class="social-media-icon">
+                    <use href="./images/icon.svg#icon-Vector-3" />
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-content">
+                <a href="" class="footer-social-media-link">
+                  <svg width="20" height="20" class="social-media-icon">
+                    <use href="./images/icon.svg#icon-Vector-4" />
+                  </svg>
+                </a>
+              </li>
+              <li class="social-media-content">
+                <a href="" class="footer-social-media-link">
+                  <svg width="20" height="20" class="social-media-icon">
+                    <use href="./images/icon.svg#icon-telegram" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-contacts-container">
+            <p class="footer-contacts-title">
+              Feel free to contact
+              <a class="footer-contacts" href="tel:+61 (0) 383 766 284"
+                >+61 (0) 383 766 284</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p class="copyright-content">© 2022 - IceCream. All Rights Reserved.</p>
+      </div>
+    </footer>
     <script src="./js/mode.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/footer1.js"></script>
 </body>
 </html>
