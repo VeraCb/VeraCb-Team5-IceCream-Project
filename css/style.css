@@ -894,7 +894,7 @@ font-family: "Titan One", sans-serif;
         height: 124px;
     }
 }
-/* Ariana's section */
+
 
 /* Sara's section */
 
@@ -903,10 +903,11 @@ font-family: "Titan One", sans-serif;
   gap: 8px;
   align-items: center;
   justify-content: center;
-  padding: 94px;
+  padding:94px;
+ 
 }
 .gallery-div {
-  background-image: linear-gradient(to bottom, #ffa5ba, rgba(255, 245, 246, 0));
+  background-image: linear-gradient(to bottom, #fff5f6, rgba(255, 245, 246, 0));
   width: 100%;
   justify-content: center;
 }
